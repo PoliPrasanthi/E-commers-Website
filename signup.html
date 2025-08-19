@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Easkart- Sign Up</title>
+  <link rel="stylesheet" href="../cssFiles/login.css" />
+
+</head>
+<body>
+  <div class="container">
+    <div class="header">Easkart</div>
+
+    <form id="signup-form">
+      <input type="text" placeholder="Full Name" class="in" id="username" required />
+      <input type="email" placeholder="Email" class="in" id="useremail" required />
+      <input type="tel" placeholder="Phone No" class="in" id="userphono" required  minlength="10" maxlength="10" />
+      <div class="Password-container">
+        <input type="password" placeholder="Password" id="userpassword" required />
+        <span class="toggle-eye" onclick="togglePassword('userpassword')">👁️</span>
+      </div>
+      <button class="submit-btn" type="submit">Create Account</button>
+    </form>
+
+    <div class="switch-page">
+      <p>Already have an account? <a href="./login.html">Login</a></p>
+    </div>
+  </div>
+  <script src="./sign.js"></script>
+</body>
+</html>
