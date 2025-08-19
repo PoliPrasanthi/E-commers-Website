@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 700px;
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px gainsboro;
+    margin:20px auto;
+    padding: 0 0 10px 0;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    gap: 20px;
+    
+}
+.item{
+    padding-left: 20px;
+    font-family: sans-serif;
+    line-height: 30px;
+    display: flex;
+    gap: 30px;
+}
+.item > main:last-child{
+    margin-bottom: 20px;
+}
+.remove{
+     background-color:red;
+    padding: 7px 10px;
+    border-radius: 6px;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
