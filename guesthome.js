@@ -38,7 +38,7 @@ function displayData(prod){
 
 function viewMore(productID){
   localStorage.setItem("selectedProductId" , productID)
-  window.location.href="guestproductView.html"
+  window.location.href="guestProductView.html"
 }
 
 function search(e){
@@ -52,5 +52,6 @@ function search(e){
 
 
 document.getElementById("searchProduct").addEventListener("input" , search)
+
 
 fetchdata()
