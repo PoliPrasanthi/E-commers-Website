@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Easkart- Login</title>
+  <link rel="stylesheet" href="../cssFiles/login.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">Easkart</div>
+
+    <form id="login-form">
+      <input type="email" id="loginemail" placeholder="Email" required />
+      <div class="Password-container">
+        <input type="password" id="loginpassword" placeholder="Password" required />
+        <span class="toggle-eye" onclick="togglePassword('loginpassword')">👁️</span>
+      </div>
+      <button class="submit-btn" type="submit">Login</button>
+    </form>
+    <div class="switch-page">
+      <p>Don't have an account? <a href="./signup.html">Sign Up</a></p>
+    </div>    
+  </div>
+  <script src="./login.js"></script>
+</body>
+</html>
