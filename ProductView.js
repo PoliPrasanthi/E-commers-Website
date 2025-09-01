@@ -19,7 +19,7 @@ if(selectedID && products){
                <p> <b>Price : </b>$${selectedProduct.price} </p>
                <main>
                <button class="button" id="addTocart">add to cart</button>
-               <button class="button-1"><a href="Home.html">Back to Home</a></button>
+               <button class="button-1"><a href="home.html">Back to Home</a></button>
                </main>
              </section>
             </div>
@@ -56,4 +56,5 @@ function addCart(product){
    localStorage.setItem("cart",JSON.stringify(cart))
 
    alert("product is added to the cart")
+
 }
